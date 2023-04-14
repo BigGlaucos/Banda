@@ -257,7 +257,7 @@ a {
 }
 
 .modal {
-  width: 60%;
+  width: 100%;
   height: 352px;
   background-color: #cc1c7757;
   backdrop-filter: blur(2px);
