@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorillaz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/2d.png" type="image/x-icon">    
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav">
+                <ul>
+                    <a href="#"><img src="./img/logo.png" alt=""></a> 
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+        <section class="seciton-wrapper">
+                    <h1>Música eclética!</h1>
+                    <p>
+                        A Banda Gorillaz é uma das mais famosas e inovadoras bandas de rock alternativo em todo o mundo. Composta por quatro membros fictícios, 2-D, Murdoc Niccals, Noodle e Russel Hobbs, a banda foi criada em 1998 pelo músico britânico Damon Albarn e pelo artista de quadrinhos Jamie Hewlett. A banda é conhecida por sua música eclética, que incorpora elementos de rock, hip-hop, eletrônica, pop e world music, e suas apresentações ao vivo espetaculares.
+                        O álbum de estreia da banda, intitulado "Gorillaz", foi lançado em 2001 e foi um grande sucesso, apresentando sucessos como "Clint Eastwood" e "19-2000". Desde então, a banda lançou sete álbuns de estúdio, incluindo "Demon Days" (2005), "Plastic Beach" (2010) e "Humanz" (2017).          
+                    </p>               
+                
+                    <span  onclick="mais()">MAIS</span>
+                        <div id="read-more">
+
+                            <h1>Performances ao vivo espetaculares!</h1>
+                            <p>
+                                Uma das coisas mais interessantes sobre a banda Gorillaz é sua abordagem única em relação à música e ao desempenho ao vivo. Ao contrário de outras bandas, os membros da Gorillaz são animados em 2D, e suas performances ao vivo são apresentadas como um show de animação. Isso cria uma experiência única para o público, que é imerso em um mundo de animação que acompanha a música da banda.
+                            </p>
+                            
+                            
+                
+                    <h1>Colaborações com artistas notáveis!</h1>
+                    <p>
+                        Outra coisa que torna a banda Gorillaz tão especial é a ampla gama de artistas com quem eles colaboraram ao longo dos anos. Desde a participação de Del The Funky Homosapien em "Clint Eastwood" até as colaborações com artistas como Lou Reed, De La Soul, Snoop Dogg, Bobby Womack e muitos outros, a banda Gorillaz trabalhou com uma variedade incrível de talentos musicais.
+                    </p>
+                    
+
+                    
+                    <h1>Filantropia e engajamento social!</h1>
+                    <p>
+                        a banda também é conhecida por sua filantropia e engajamento social. Eles frequentemente usam sua música para destacar questões sociais e políticas, como a crise dos refugiados, mudanças climáticas e outros tópicos importantes. A banda também lançou uma campanha de caridade em 2020 para ajudar trabalhadores da indústria musical que foram afetados pela pandemia COVID-19.
+                    </p>
+                    
+                    
+                    
+                    <h1>Exemplo inspirador!</h1>
+                    <p>
+                        Em resumo, a banda Gorillaz é uma das bandas mais inovadoras e originais em todo o mundo. Sua música eclética, performances ao vivo impressionantes e colaborações com outros artistas notáveis os tornam uma força a ser reconhecida na indústria da música. Além disso, sua filantropia e engajamento social tornam a banda um exemplo inspirador de como a música pode ser usada para promover a mudança positiva no mundo.
+                    </p>
+                    <span onclick="menos()">MENOS</span>
+                </div>
+                    
+                    
+                    <div class="grid-container">
+                        <div class="um"><audio src="./music/SaveTube.App - Gorillaz - New Gold ft. Tame Impala & Bootie Brown (Official Visualiser) (128 kbps).mp3"controls></audio></div>
+                        <div class="dois"><audio src="./music/SaveTube.App - Gorillaz - Silent Running ft. Adeleye Omotayo (Official Video) (128 kbps).mp3"controls></audio></div>
+                        <div class="tres"><audio src="./music/SaveTube.App - Gorillaz - Stylo (Official Video) (128 kbps).mp3" controls></audio></div>  
+                        <div class="quatro"><audio src="./music/SaveTube.App - Gorillaz - Tormenta ft. Bad Bunny (Official Visualiser) (128 kbps).mp3" controls></audio></div>
+                    </div>
+                    
+                    <div onclick="abrirModal()" class="btn">Clipes</div>
+                    
+                    <div id="modal">
+                        <div class="um"><iframe style="border-radius:12px" width= "100%" height="352" src="https://www.youtube.com/embed/_0Pf48RqSsg" title="Gorillaz - Silent Running ft. Adeleye Omotayo (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe></div>
+                        <div class="dois"><iframe style="border-radius:12px"width= "100%" height="352" src="https://www.youtube.com/embed/kO8Nj09525U" title="Gorillaz - Tormenta ft. Bad Bunny (Official Visualiser)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></iframe></div>
+                        <div class="tres"><iframe style="border-radius:12px" width= "100%" height="352" src="https://www.youtube.com/embed/qJa-VFwPpYA" title="Gorillaz - New Gold ft. Tame Impala &amp; Bootie Brown (Official Visualiser)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  </iframe></div>  
+                        <div class="quatro"><iframe style="border-radius:12px" width= "100%" height="352" src="https://www.youtube.com/embed/nhPaWIeULKk" title="Gorillaz - Stylo (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                        <button class="btn" id="fechar" onclick="fecharModal()">Fechar Modal</button>
+                    </div>
+                    <img id="noodle1" src="./img/2d.png" alt="" srcset="">
+                    <img id="noodle2" src="./img/noodle.png" alt="" srcset="">
+                
+        </section>
+    </main>
+    <footer></footer>
+</div>
+</body>
+</html>
