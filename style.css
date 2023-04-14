@@ -257,7 +257,7 @@ a {
 }
 
 .modal {
-  width: 80%;
+  width: 60%;
   height: 352px;
   background-color: #cc1c7757;
   backdrop-filter: blur(2px);
@@ -310,6 +310,7 @@ a {
   flex-direction: column;
   align-items: center;
   display:none;
+  width:80%;
 }
 
 
